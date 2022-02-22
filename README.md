@@ -30,7 +30,7 @@ You can use this tool to check in production exactly where a binary came from an
 
 # Full Examples
 
-* Check out the [example_shadow](https://github.com/baoyachi/shadow-rs/tree/master/example_shadow) for a simple
+* Check out the [example_shadow_clap](https://github.com/baoyachi/shadow-rs/tree/master/example_shadow_clap) for a simple
   demonstration of how `shadow-rs` might be used to provide build-time information at run-time.
 * Check out the [example_shadow_hook](https://github.com/baoyachi/shadow-rs/tree/master/example_shadow_hook) for a
   simple demonstration of how `shadow-rs` might be used to provide build-time information at run-time,and add custom
@@ -129,7 +129,7 @@ fn main() {
 ## Clap Example
 
 And you can also use `shadow-rs`
-with [`clap`](https://github.com/baoyachi/shadow-rs/blob/master/example_shadow/src/main.rs).
+with [`clap`](https://github.com/baoyachi/shadow-rs/blob/master/example_shadow_clap/src/main.rs).
 
 ## Support const,function in table
 
@@ -147,7 +147,7 @@ with [`clap`](https://github.com/baoyachi/shadow-rs/blob/master/example_shadow/s
 
 #### shadow-rs support build const,function.
 
-* how to use 👉 : [shadow_example](https://github.com/baoyachi/shadow-rs/tree/master/example_shadow)
+* how to use 👉 : [shadow_example](https://github.com/baoyachi/shadow-rs/tree/master/er/example_shadow_clap))
 
 | const/fn | example |
 | ------ | ------ |

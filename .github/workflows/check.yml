@@ -47,20 +47,20 @@ jobs:
       - name: Run examples with release
         run: cargo run --example builtin_fn
 
-      # example_shadow cargo fmt
+      # example_shadow_clap cargo fmt
       - name: Check examples format
         run: cargo fmt --all -- --check
-        working-directory: ./example_shadow
+        working-directory: ./example_shadow_clap
 
-      # example_shadow cargo clippy
+      # example_shadow_clap cargo clippy
       - name: Check examples with clippy
         run: cargo clippy --all -- -D warnings
-        working-directory: ./example_shadow
+        working-directory: ./example_shadow_clap
 
-      # example_shadow cargo run
-      - name: Run example_shadow
+      # example_shadow_clap cargo run
+      - name: Run example_shadow_clap
         run: cargo run 
-        working-directory: ./example_shadow
+        working-directory: ./example_shadow_clap
 
       # build on nightly
       - uses: actions-rs/toolchain@v1

@@ -21,4 +21,4 @@ git2 = { version = "0.13.20", default-features = false, optional = true }
 default = ["git2"]
 
 [workspace]
-members = ["example_shadow", "example_shadow_hook"]
+members = ["example_shadow_clap", "example_shadow_hook"]

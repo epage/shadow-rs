@@ -1,13 +1,13 @@
-use clap::App;
+use clap::Command;
 
 use shadow_rs::shadow;
 
 shadow!(build);
 
 fn main() {
-    App::new("example_shadow")
+    Command::new("example_shadow_clap")
         .version(build::clap_version().as_str())
-        .get_matches(); //USAGE: ./example_shadow -V
+        .get_matches(); //USAGE: ./example_shadow_clap -V
 
     // shadow-rs built in function
     println!("is_debug:{}", shadow_rs::is_debug());
